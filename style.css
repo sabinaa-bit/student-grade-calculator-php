@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:blue;
+    padding: 15px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: yellow;
+}
+h1{
+    text-allign= center;
+    color: black;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+}
+footer{
+    text-align:center;
+    background-color:lightgray;
+    padding:15px;
+
+}
+    
