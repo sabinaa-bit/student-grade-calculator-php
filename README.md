@@ -145,4 +145,3 @@ Sabina Khanal, Priyanka sah, Anushka Halwai, Sangrila majhi, Jigyasa majhi
 
 ## Thank You
 Thank you for visiting this project.
->>>>>>> a76164cb0f9f079c3b8809adb550728abd129768
