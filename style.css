@@ -1,35 +1,189 @@
+/* ===== General ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-    font-family: Arial, sans-serif;
-    background-color:white;
-    margin: 0;
-    padding: 0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#333;
 }
-nav{
-    background-color:blue;
-    padding: 15px;
-}
-nav a{
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-    font-weight: bold;
-}
-nav a:hover{
-    color: yellow;
-}
-h1{
-    text-allign= center;
-    color: black;
-}
-p{
-    text-align: center;
-    font-size: 18px;
-    color: black;
-}
-footer{
+
+/* ===== Header ===== */
+
+header{
+    background:#0047AB;
+    color:white;
     text-align:center;
-    background-color:lightgray;
+    padding:20px;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+/* ===== Navbar ===== */
+
+nav{
+    background:#003380;
+    text-align:center;
     padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* ===== Main Container ===== */
+
+.container{
+    width:90%;
+    margin:25px auto;
+}
+
+/* ===== Card ===== */
+
+.card{
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.card h2{
+    color:#0047AB;
+    margin-bottom:15px;
+}
+
+.card p{
+    line-height:1.7;
+}
+
+/* ===== Faculty Boxes ===== */
+
+.row{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.box{
+    flex:1;
+    min-width:250px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 8px gray;
+}
+
+.box h3{
+    color:#0047AB;
+    margin-bottom:10px;
+}
+
+/* ===== Form ===== */
+
+form{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+label{
+    font-weight:bold;
+}
+
+input,
+select{
+    width:100%;
+    padding:10px;
+    margin:10px 0 15px;
+}
+
+button{
+    background:#0047AB;
+    color:white;
+    border:none;
+    padding:12px;
+    width:100%;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#002766;
+}
+
+/* ===== Table ===== */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table,th,td{
+    border:1px solid #ddd;
+}
+
+th{
+    background:#0047AB;
+    color:white;
+}
+
+th,td{
+    padding:12px;
+    text-align:center;
+}
+
+/* ===== Result ===== */
+
+.result{
+    background:#d4edda;
+    color:green;
+    padding:15px;
+    border-radius:8px;
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* ===== Footer ===== */
+
+footer{
+    background:#003380;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+/* ===== Responsive ===== */
+
+@media(max-width:768px){
+
+.row{
+    flex-direction:column;
+}
+
+nav a{
+    display:block;
+    margin:10px;
+}
 
 }
     
