@@ -24,7 +24,6 @@ header{
 header h1{
     margin-bottom:10px;
 }
-<<<<<<< HEAD
 nav a:hover{
     color: yellow;
 }
@@ -38,13 +37,6 @@ p{
     color: black;
 }
 footer{
-=======
-
-/* ===== Navbar ===== */
-
-nav{
-    background:#003380;
->>>>>>> a76164cb0f9f079c3b8809adb550728abd129768
     text-align:center;
     padding:15px;
 }
