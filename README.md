@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Student Grade Calculator — Project Guide
 
 ### 📋 Project Overview
