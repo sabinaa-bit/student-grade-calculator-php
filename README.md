@@ -130,7 +130,8 @@ Student-Grade-Calculator/
 ├── student.php
 ├── gradecalculator.php
 ├── result.php
-├── css/
+├── assets/
+├──── css/
 │   └── style.css
 ├── includes/
 │   ├── header.php
@@ -140,7 +141,7 @@ Student-Grade-Calculator/
 ```
 
 ## Developed By
-Sabina Khanal, Priyanka sah, Anushka Halwai, Sangrila majhi, Jigyasa majhi
+Sabina Khanal, Priyanka Sah, Anushka Halwai, Sangrila Majhi, Jigyasa Majhi
 
 ## Thank You
 Thank you for visiting this project.
